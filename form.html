@@ -1,47 +1,139 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<title>form örneği</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>HTML5 Template Design</title>
+    <meta content='HTML5 Template Design' name='description' />
+    <meta content='width=device-width, initial-scale=1' name='viewport' />
+    <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
+   
+    <div id="main-container">
+        <header id="header">
+            <section> LG </section>
 
-	Takma Ad:
-	<input type="text" name="takmaad" value="Levo">
-	<br><br>
+            <nav>
+                <ul>
+                    <li><a href="http://www.facebook.com/leventgul60">Facebook</a>
+                    </li>
+                    <li><a href="http://www.instagram.com/leventgul60">İnstagram</a>
+                    </li>
+                    <li><a href="http://www.youtube.com/leventgul60">Youtube</a>
+                    </li>
+                    <li><a href="http://www.skptricks.com/search/label/AJAX">Hakkımda</a>
+                    </li>
+                    <li><a href="http://www.skptricks.com/search/label/android">Levent GÜL</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
 
-	Ad:
-	<input type="text" name="firstname" value="Levent">
-	<br><br>
+        <section id="display-ads">
+            <h1><center> Blog Sayfama Hoşgeldiniz :) </center> </h1>
+        </section>
 
-	Soyad:
-	<input type="text" name="lastname" value="Gül">
-	<br><br>
+        <section id="main-body-container">
 
-	E-Posta:
-	<input type="text" name="e-posta" value="leventgl99@gmail.com">
-	<br><br>
-	
-	Telefon:
-	<input type="text" name="gsm" value="05074769008"><br><br>
+            <article id="main-article">
+             
+<!-- Container for the image gallery -->
+<div class="container">
 
-	<input type="checkbox" name="onay1" value="onay1"> Kuralları Okudum Onaylıyorum <br>
-	<input type="checkbox" name="onay2" value="onay2"> Mesajımı Göndermek İstiyorum <br>
+  <!-- Full-width images with number text -->
+  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
+      <img src="img_woods_wide.jpg" style="width:100%">
+  </div>
 
-	Yazı Rengi:
-	<input type="color" name="favcolor"><br><br><br>
+  <div class="mySlides">
+    <div class="numbertext">2 / 6</div>
+      <img src="img_5terre_wide.jpg" style="width:100%">
+  </div>
 
-	İleti :
-	<input type="text"><br><br>
+  <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+      <img src="img_mountains_wide.jpg" style="width:100%">
+  </div>
 
-	<select name="adminler">
-		<option value="yönetici">yönetici</option>
-		<option value="moderatör">moderatör</option>
-		<option value="üye">üye</option>
-		
-	</select>
+  <div class="mySlides">
+    <div class="numbertext">4 / 6</div>
+      <img src="img_lights_wide.jpg" style="width:100%">
+  </div>
 
-	<input type="submit">
-	<input type="reset"><br><br>
-</form>
+  <div class="mySlides">
+    <div class="numbertext">5 / 6</div>
+      <img src="img_nature_wide.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+      <img src="img_snow_wide.jpg" style="width:100%">
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+  <!-- Image text -->
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <!-- Thumbnail images -->
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="img_woods.jpg" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
+    </div>
+    <div class="column"> 
+      <img class="demo cursor" src="img_5terre.jpg" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img_mountains.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img_lights.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img_nature.jpg" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
+    </div> 
+    <div class="column">
+      <img class="demo cursor" src="img_snow.jpg" style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
+    </div>
+  </div>
+</div>
+            </article>
+
+            <aside 
+            </aside id='sidebar'>
+
+   <hgroup>
+   	<h1>Deneme1</h1>
+   	<h3>Alt Baslık Deneme1</h3>
+   </hgroup>
+
+
+   <figure>
+    		<img src="aa.jpg" alt="elma"/>
+    		<figcaption>
+    			Resim 1.1 Bu Bir Elmadır..
+    		</figcaption>
+    	</figure>
+        </section>
+
+        <footer id="footer">Levent GÜL © <a shref="http://www.leventgul60.com">www.leventgul.com </a>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+
+
+    	
+
 </body>
+
 </html>
+
